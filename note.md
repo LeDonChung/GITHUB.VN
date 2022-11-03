@@ -1,6 +1,7 @@
 # Terms: Danh từ
 Repository(Rep): là một thư mục 
-
+Branch: Cành: mặc định là master và mỗi cành sẽ có một nhiệm vụ khác nhau: VD: master chức năng a, dev có chứ năng b
+Conflict: Xung đột 
 # Command: Lệnh
 - git init: để làm trở thành Rep -> sử dụng đc khi đánh lệnh này
 - git status: kiểm tra dự án thay đổi ntn
@@ -11,3 +12,9 @@ Repository(Rep): là một thư mục
 - git log: Show lại những thời điểm commit  
 - git log --oneline: Show lại thời điểm commit gọn hơn
 - git checkout 'id người commit': để quay lại thời điểm người đó commit
+- git checkout master: quay lại thời điểm commit gần nhất
+- git branch: kiểm tra đang ở branch nào
+- git checkout -b {branch}: tạo mới một branch
+- git checkout 'tên branch muốn qua'
+- git merge 'tên branch muốn gộp lại src'
+- git branch -D 'tên branch': xóa một branch
