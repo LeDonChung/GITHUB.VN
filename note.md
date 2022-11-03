@@ -1,7 +1,9 @@
 # Terms: Danh từ
 Repository(Rep): là một thư mục 
 Branch: Cành: mặc định là master và mỗi cành sẽ có một nhiệm vụ khác nhau: VD: master chức năng a, dev có chứ năng b
-Conflict: Xung đột 
+Conflict: Xung đột
+Local
+Remote 
 # Command: Lệnh
 - git init: để làm trở thành Rep -> sử dụng đc khi đánh lệnh này
 - git status: kiểm tra dự án thay đổi ntn
@@ -18,3 +20,7 @@ Conflict: Xung đột
 - git checkout 'tên branch muốn qua'
 - git merge 'tên branch muốn gộp lại src'
 - git branch -D 'tên branch': xóa một branch
+
+- git push: đẩy rep remote lên local remote(git)
+
+
