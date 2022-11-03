@@ -28,4 +28,6 @@ Remote
 -- git push -u origin dev: Đẩy một branch lên git
 -- git fetch origin: lấy tên branch ở trên remote
 -- git checkout -b 'sta' origin/sta: lấy sta branch về
+-- git pull: lấy những file thay đổi sau khi merge trên git 
+
 
