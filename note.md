@@ -22,5 +22,7 @@ Remote
 - git branch -D 'tên branch': xóa một branch
 
 - git push: đẩy rep remote lên local remote(git)
+-- git remote add origin https://github.com/LeDonChung/GITHUB.VN: Tạo alias origin để lưu tên remote dễ dàng hơn
+-- git push origin master: Đẩy code lên remote(origin) của branch master
 
 
